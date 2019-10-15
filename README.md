@@ -9,6 +9,6 @@ This is **open research** which means that we are providing both the dataset and
 
 ## The Data
 
-In the [data directory](https://github.com/department-of-vet-pathology-unizg/dog_age/tree/master/data), we provided maxillas and mandibles images of 44 dogs (88 images in total) together with their masks. The [data.csv](https://github.com/department-of-vet-pathology-unizg/dog_age/blob/master/data/Data.csv) file contains the age of every dog. All the data is, of course, anonymized.
+In the [data directory](https://github.com/department-of-vet-pathology-unizg/dog_age/tree/master/data), we provided maxillas and mandibles images of 44 dogs together with their masks. The [data.csv](https://github.com/department-of-vet-pathology-unizg/dog_age/blob/master/data/Data.csv) file contains the age of every dog. All the data is, of course, anonymized.
 
 The number of images in the database will increase over time
