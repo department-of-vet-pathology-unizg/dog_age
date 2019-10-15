@@ -12,3 +12,10 @@ This is **open research** which means that we are providing both the dataset and
 In the [data directory](https://github.com/department-of-vet-pathology-unizg/dog_age/tree/master/data), we provided maxillas and mandibles images of 44 dogs together with their masks. The [data.csv](https://github.com/department-of-vet-pathology-unizg/dog_age/blob/master/data/Data.csv) file contains the age of every dog. All the data is, of course, anonymized.
 
 The number of images in the database will increase over time
+
+
+## Image Preprocessing
+
+Raw images have a size of 6000X4000px (24MP), which is too large for a neural network. One way to reduce the image size, while still keeping (most of) the data, is to extract only the teeth from every image. We decided to use masks to extract this data and create "mozaics"  - images that contain both the maxilla's and mandible's teeth. 
+
+You can use the mozaics.py file to parse the images and create more suitable training data.
