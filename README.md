@@ -1,2 +1,2 @@
-# dog_age
+# DogTeethAge
 Dog's teeth age estimation with Deep Learning
