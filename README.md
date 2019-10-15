@@ -5,3 +5,10 @@ The most practical method for estimating dog age is by the examination of his te
 We hope that with the appropriate database, Deep Learning will be able to provide a more objective estimation of teeth age. 
 
 This is **open research** which means that we are providing both the dataset and the code **before** publishing the paper. If you would like to contribute to this project you can do that through this GitHub page or you can contact us through the email.
+
+
+## The Data
+
+In [data directory](https://github.com/department-of-vet-pathology-unizg/dog_age/tree/master/data) we provided maxillas and mandibles images of 44 dogs (88 images in total) together with their masks. [Data.csv](https://github.com/department-of-vet-pathology-unizg/dog_age/blob/master/data/Data.csv) file contains the age of every dog. All the data is, of course, anonymized.
+
+The number of images in the database will increase over time
