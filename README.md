@@ -16,6 +16,6 @@ The number of images in the database will increase over time
 
 ## Image Preprocessing
 
-Raw images have a size of 6000X4000px (24MP), which is too large for a neural network. One way to reduce the image size, while still keeping (most of) the data, is to extract only the teeth from every image. We decided to use masks to extract this data and create "mosaics" - images that contain both the maxilla's and mandible's extracted teeth.
+Our raw images have a size of 6000X4000px (24MP), which is too large for a neural network. One way to reduce the image size, while still keeping (most of) the data, is to extract only the teeth from every image. We decided to use masks to extract this data and create "mosaics" - images that contain both the maxilla's and mandible's extracted teeth.
 
-You can use the mozaics.py file to parse the images and create more suitable training data.
+You can use the mozaics.py file to parse the images into "mosaics".
