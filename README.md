@@ -19,3 +19,5 @@ The number of images in the database will increase over time
 Our raw images are of a size 6000X4000px (24MP), which is too large for a neural network. One way to reduce the image size, while still keeping (most of) the data, is to extract only the teeth from every image. We decided to use masks to extract this data and create "mosaics" that contain both the maxilla's and mandible's extracted teeth.
 
 You can use the [mozaic.py](https://github.com/department-of-vet-pathology-unizg/dog_age/blob/master/mosaic.py) file to parse the images into "mosaics".
+
+![img](./examples/masking.png)
