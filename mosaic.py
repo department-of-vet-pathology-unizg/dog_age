@@ -19,8 +19,8 @@ def get_name(img):
     return img.name[:img.name.find('_')]
 
 
-imgs_data= []
 for i in range(len(imgs)):
+    imgs_data= []
     print("Calculating image: " + str(imgs[i].name[:-4]))
     img = cv2.imread(str(imgs[i]))
     mask = cv2.imread(str(masks[i]), cv2.IMREAD_GRAYSCALE)
@@ -82,6 +82,3 @@ for i in range(len(imgs)):
                 continue
 
     cv2.imwrite(f"{str(mozaic_path)}/mozaic_{get_name(imgs[i])}.png", mozaic)
-    
-    # empty list for next pair of images
-    imgs_data = []
