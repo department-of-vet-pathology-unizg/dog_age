@@ -1,6 +1,6 @@
 # DogTeethAge
 
-The most practical method for estimating dog age is by the examination of his teeth. Unfortunately, human's accuracy of this method decreases sharply after a dog reaches its adulthood. This is because the permanent (adult) teeth are usually all visible by 6 months of age and after that, the age assessment depends only on the general state of the teeth and gingiva (on factors like tooth wear, cementum, and pulp cavity). Variations in diets, behavior, genetics, as well as diseases and trauma, can all influence those factors and introduce an "uncertainty" that is increasing with dog ageing.
+The most practical method for estimating dog age is by the examination of his teeth. Unfortunately, human's accuracy of this method decreases sharply after a dog reaches its adulthood. This is because after the permanent (adult) teeth grow in and take the place of the primary teeth (usually by 6 months of age), the age assessment can depend only on the general state of the teeth and gingiva (on factors like tooth wear, cementum, and pulp cavity). Variations in diets, behavior, genetics, as well as diseases and trauma, can all influence those factors and introduce an "uncertainty" that is increasing with aging.
 
 We hope that with the appropriate database, Deep Learning will be able to provide a more objective estimation of teeth age. 
 
