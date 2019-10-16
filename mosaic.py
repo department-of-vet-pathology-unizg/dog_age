@@ -20,7 +20,7 @@ def get_name(img):
 
 
 for i in range(len(imgs)):
-    imgs_data= []
+    imgs_data = []
     print("Calculating image: " + str(imgs[i].name[:-4]))
     img = cv2.imread(str(imgs[i]))
     mask = cv2.imread(str(masks[i]), cv2.IMREAD_GRAYSCALE)
