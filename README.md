@@ -4,7 +4,7 @@ The most practical method for estimating dog age is by the examination of his te
 
 We hope that with the appropriate database, Deep Learning will be able to provide a more objective estimation of teeth age. 
 
-This is **open research** which means that we are providing both the dataset and the code **before** publishing the paper. If you would like to contribute to this project you can do that through this GitHub page or you can contact us through the email.
+This is **open research** which means that we are providing both the dataset and the code **before** publishing the paper. All contributions are welcome.
 
 
 ## The Data
